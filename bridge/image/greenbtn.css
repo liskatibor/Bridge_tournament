@@ -1,0 +1,40 @@
+body {
+    font-size: 16px;
+}
+.closebtn {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+.closebtn:hover,
+.closebtn:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+.greenbtn {
+	padding: 7px 25px;
+	font-size: 20px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #4CAF50;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+}
+.greenbtn:hover    {
+	background-color:  #3e8e41;
+}
+.greenbtn:active {
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+.greenbtn:disabled {
+	background-color: #cccccc;
+	color: #808080;
+}
